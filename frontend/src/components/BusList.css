@@ -1,0 +1,265 @@
+.bus-list {
+    text-align: center;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* .search-bar {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+   */
+  /* .bus-list {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+  }
+  
+  .bus-list li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #a74545;
+  }
+  
+  .bus-list li:hover {
+    background-color: #6d3333;
+  }
+  
+  .bus-list h2 {
+    color: #333;
+  } */
+  
+  /* .bus-item {
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  } */
+  
+  /* .bus-item:hover {
+    background-color: #007bff;
+    color: #fff;
+  } */
+  
+  /* .bus-list p {
+    color: red;
+  } */
+  
+   /* .bus-list {
+    text-align: center;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    color: #e94949;
+    background-color: #f7f8f9;
+  } */
+  
+  /* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  } */
+  
+  .search-bar {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .search-bar:focus {
+    border-color: #2980b9;
+  }
+/*   
+  .bus-list {
+    list-style:square;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+  } */
+/*   
+  .bus-list li {
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin: 6px 0;
+    cursor: pointer;
+    background: #0acafa;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bus-list li:hover {
+    background: #3498db;
+    color: #fff;
+  } */
+  
+  /* .bus-item {
+    padding: 12px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+  }
+  
+  .bus-item:hover {
+    background-color: #2ecc71;
+    color: #fff;
+    transform: scale(1.05);
+  } */
+  
+  .bus-table {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+  }
+  
+  .bus-table table {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bus-table th, .bus-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bus-table th {
+    background-color: #34495e;
+    color: #fff;
+  }
+  
+  .bus-table tbody tr:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ec6455;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+  }
+  
+   Center the search bar at the top
+.bus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #2c3e50;
+  padding-top: 20px;
+}
+
+/* Updated CSS */
+
+/* Centering the search bar at the top */
+.search-bar {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Ensuring the live bus list is not repeated */
+.live-bus-tracking {
+  display: block;
+}
+
+/* Keeping the rest of the styles intact */
+.bus-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+/* Styling for each bus list box */
+.bus-list-box {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(242, 182, 29);
+  border: 2px solid whitesmoke;
+  border-radius: 10px ;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: whitesmoke;
+}
+
+/* Hover effect */
+.bus-list-box:hover {
+  background-color: #3498db;
+  color: white;
+  transform: scale(1.05);
+  border-color: #2980b9;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for each bus item inside the box */
+.bus-item {
+  padding: 12px;
+  background: #bf5555;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+/* Hover effect for individual bus items */
+.bus-item:hover {
+  background-color: #2ecc71;
+  color: #fff;
+  transform: scale(1.05);
+}

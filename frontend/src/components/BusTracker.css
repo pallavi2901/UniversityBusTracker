@@ -1,0 +1,61 @@
+.bus-tracker-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fdfdfc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  
+  .title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .bus-table {
+    width: 100%;
+    margin-left: 12%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.3rem;
+  }
+  
+  td {
+    font-size: 1.2rem;
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
