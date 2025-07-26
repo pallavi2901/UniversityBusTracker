@@ -7,7 +7,7 @@ const Map = ({ selectedBus }) => {
   useEffect(() => {
     if (!window.google) {
       const script = document.createElement("script");
-      // script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBfUgFSUj7cer0AkmjK9hy4SwZq-82H6vM&callback=initMap`;
+      const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
       script.async = true;
       script.onload = () => initMap();
       document.head.appendChild(script);
